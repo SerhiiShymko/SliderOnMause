@@ -1,0 +1,50 @@
+.swiper {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.swiper-wrapper {
+    display: flex;
+}
+
+.swiper-slide {
+    flex-shrink: 0;
+    padding-bottom: 52.8%;
+    position: relative;
+}
+
+.swiper-slide img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.swiper-pagination-bullet {
+    height: 5px;
+    flex: 1 1 auto;
+    background-color: rgb(0, 0, 0, 0.5);
+    transition: all 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: orange;
+}
+
+.swiper-pagination-lock {
+    display: none;
+}
