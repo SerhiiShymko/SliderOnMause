@@ -1,0 +1,2 @@
+const e=new Swiper(".swiper",{pagination:{el:".swiper-pagination"}});document.querySelector("[data-mousemove-swipe]")&&document.addEventListener("mousemove",(function(o){const t=o.target;if(t.closest("[data-mousemove-swipe]")){const n=t.closest("[data-mousemove-swipe]"),i=e[(s=n,Array.from(s.parentNode.children).indexOf(s))],a=i.slides.length;if(a>1){const e=i.width,t=Math.round(e/a),s=o.clientX-n.offsetLeft,r=Math.floor(s/t);i.slideTo(r)}}var s}));
+//# sourceMappingURL=index.29201d3e.js.map
